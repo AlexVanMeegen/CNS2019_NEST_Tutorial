@@ -1,0 +1,15 @@
+*.aux
+*.dvi
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.ps
+*.snm
+*.synctex.gz*
+*.toc
+*.vrb
+*-eps-converted-to.pdf
+.snakemake/
+_minted-presentation/

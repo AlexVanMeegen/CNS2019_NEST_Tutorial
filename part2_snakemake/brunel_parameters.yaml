@@ -1,0 +1,42 @@
+# network parameters
+# record from N_rec excitatory and N_rec inhibitory neurons
+N_rec: 50
+# number of excitatory neurons
+NE: 10000
+# number of inhibitory neurons
+NI: 2500
+# indegree from excitatory neurons
+CE: 1000
+# indegree from inhibitory neurons
+CI: 250
+
+# synapse parameters
+# excitatory synaptic weight in mV
+w: 0.1
+# relative inhibitory to excitatory synaptic weight (w_I = - g * w_E)
+g: 5.0
+# synaptic transmission delay in ms
+d: 1.5
+
+# neuron parameters
+neuron_params:
+  # membrane capacity in pF
+  C_m: 1.0
+  # resting membrane potential in mV
+  E_L: 0.0
+  # external input current in pA
+  I_e: 0.0
+  # initial membrane potential in mV
+  V_m: 0.0
+  # reset membrane potential after a spike emission in mV
+  V_reset: 10.0
+  # spike threshold in mV
+  V_th: 20.0
+  # refractory period in ms
+  t_ref: 2.0
+  # membrane time constant in ms
+  tau_m: 20.0
+
+# external input parameters
+# external rate relative to threshold rate
+nu_ex: 2.0

@@ -1,0 +1,28 @@
+configfile: 'config.yaml'
+
+G = [config['g']['min'] + n*config['g']['stepsize'] for n in range(config['g']['steps'])]
+NU_EX = [config['nu_ex']['min'] + n*config['nu_ex']['stepsize'] for n in range(config['nu_ex']['steps'])]
+
+
+rule all:
+    input:
+        'phase_diagram.png'
+
+rule simulateNetwork:
+    '''Simulate a Brunel network'''
+    input:
+        'brunel_parameters.yaml'
+    output:
+        'data/spikes_{g}_{nu_ex}.npy',
+        'figures/raster_{g}_{nu_ex}.png'
+    shell:
+        'python3 scripts/simulateBrunel.py --g {wildcards.g} --nu_ex {wildcards.nu_ex} {input} {output}'
+
+rule plotPhaseDiagram:
+    '''Plot the phase diagram'''
+    input:
+        expand('data/spikes_{g}_{nu_ex}.npy', g=G, nu_ex=NU_EX)
+    output:
+        'phase_diagram.png'
+    shell:
+        'python3 scripts/plotPhaseDiagram.py {output} {input}'

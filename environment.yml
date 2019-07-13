@@ -1,0 +1,17 @@
+name: CNS2019_NEST
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - cython
+  - rise
+  - numpy
+  - nest-simulator=2.16.0
+  - datrie
+  - python=3.6
+  - pygments
+  - pip
+  - pip:
+    - docopt
+    - snakemake

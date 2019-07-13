@@ -1,0 +1,8 @@
+g:
+  stepsize: 3.0
+  min: 2.0
+  steps: 2
+nu_ex:
+  stepsize: 0.5
+  min: 2.0
+  steps: 1
