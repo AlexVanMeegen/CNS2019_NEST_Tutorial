@@ -1,3 +1,5 @@
+![](nest-and-snakemake.png)
+
 # Introduction to the simulation of structurally detailed large-scale neuronal networks
 
 Tutorial at CNS 2019 in Barcelona.
