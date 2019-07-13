@@ -8,9 +8,10 @@ In an actual real-world example, many steps of the workflow concern the
 data preprocessing. Here we leave this out for simplicity and build upon
 an existing model:
 
+```
 Schmidt et al. (2018) Multi-scale account of the network structure of macaque visual cortex. Brain Structure and Function 223(3):1409-1435
 Schmidt et al. (2018) A multi-scale layer-resolved spiking network model of resting-state dynamics in macaque visual cortical areas. PLOS CB 14(10):e1006359
-
+```
 
 ## Tasks
 
