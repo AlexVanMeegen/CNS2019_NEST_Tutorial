@@ -19,17 +19,3 @@ Schmidt et al. (2018) A multi-scale layer-resolved spiking network model of rest
   * Add a rule and make a script to produce rasterplots of the spiking activity.
 * So far, we did not consider any transmission delays, in particular between areas.
   * Add transmission delays to the simulation.
-
-
-## Notes
-
-### TODO: HPC presentation
-
-* parallelization
-  * MPI, OpenMP
-  * memory layout
-  * RNG seeding
-  * communication
-* queuing / batch system
-  * data retrieval / storage
-* cluster.json, snakemake & SLURM
