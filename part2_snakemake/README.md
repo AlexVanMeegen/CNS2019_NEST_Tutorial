@@ -34,7 +34,7 @@ based on a parameter scan of the Brunel network. Final result:
   * go grab a coffee, do something fun, or advance to the next task
 * let's think about a more modular implementation of `simulateBrunel.py`
   * look at `simulateBrunelModular.py` and decide for yourself if this is cleaner
-  * besides code structure, why is could this implementation be useful?
+  * besides code structure, why could this implementation be useful?
 
 
 ## Files
