@@ -1,4 +1,4 @@
-name: CNS2019_NEST
+name: HBPSC2020_NEST
 channels:
   - conda-forge
   - defaults
@@ -7,9 +7,9 @@ dependencies:
   - cython
   - rise
   - numpy
-  - nest-simulator=2.16.0
+  - nest-simulator
   - datrie
-  - python=3.6
+  - python=3.7
   - pygments
   - pip
   - pip:

@@ -2,43 +2,17 @@
 
 # Introduction to the simulation of structurally detailed large-scale neuronal networks
 
-Tutorial at CNS 2019 in Barcelona.
+Tutorial at HBP Student Conference 2020 in Pisa.
 
-Tutors: Alexander van Meegen, Dennis Terhorst
-
-## Schedule
-
-### PART I / Morning
-
-* Introduction (AvM & DT)
-
-* NEST Introduction (DT)
-  * NEST background presentation
-  * unsynchronized troubleshooting and Jupyter notebook examples
-  * re-synchronized Brunel-Notebook presentation
-
-* Snakemake Introduction (AvM)
-  * short presentation
-  * unsynchronized Brunel-Workflow tasks
-  * re-synchronized Brunel-Workflow solutions
-
-### PART II / Afternoon
-
-* Multi-area-networks Introduction
-  * short motivation (AvM)
-  * short HPC outlook (DT)
-  * unsynchronized workflow / script building
-  * additional: unsynchronized HPC
-
-* Advanced NEST & Outro (AvM & DT)
+Tutors: Sandra Diaz, Alper Yegenoglu, Alexander van Meegen
 
 ## Installation
 
 We recommend using a conda environment to get all necessary dependencies.
-After [installing conda](https://conda.io/docs/user-guide/install/index.html) create a new environment and activate it:
+After [installing conda](https://conda.io/docs/user-guide/install/index.html), create a new environment and activate it:
 ```
 conda env create -f environment.yml
-conda activate CNS2019_NEST
+conda activate HBPSC2020_NEST
 ```
 
 If nest is not found in jupyter notebooks reinstall the correct python kernel for the notebooks:
