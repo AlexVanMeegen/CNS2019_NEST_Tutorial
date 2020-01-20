@@ -32,9 +32,6 @@ based on a parameter scan of the Brunel network. Final result:
   * change `config.yaml` to `config_full.yaml`
   * use multiple cores to simulate multiple parameter sets in parallel
   * go grab a coffee, do something fun, or advance to the next task
-* let's think about a more modular implementation of `simulateBrunel.py`
-  * look at `simulateBrunelModular.py` and decide for yourself if this is cleaner
-  * besides code structure, why could this implementation be useful?
 
 
 ## Files
@@ -44,8 +41,7 @@ based on a parameter scan of the Brunel network. Final result:
 * `config_full.yaml`: configuration file for the snakemake worflow corresponding to the above figure
 * `graph.png`: visualization of the snakemake workflow
 * `Snakefile`: snakemake workflow file
-* `scripts/simulateBrunel.py`: script to simulate a Brunel network (naive implementation)
-* `scripts/simulateBrunelModular.py`: script to simulate a Brunel network (modular implementation)
+* `scripts/simulateBrunel.py`: script to simulate a Brunel network
 * `scripts/plotPhaseDiagram.py`: script to plot the phase diagram of the Brunel network
 
 
