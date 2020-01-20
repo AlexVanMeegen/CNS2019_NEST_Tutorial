@@ -15,7 +15,11 @@ conda env create -f environment.yml
 conda activate HBPSC2020_NEST
 ```
 
-If nest is not found in jupyter notebooks reinstall the correct python kernel for the notebooks:
+If nest is not found in jupyter notebooks check if the jupyter kernel is correct:
+```
+jupyter kernelspec list
+``` 
+If there is no kernel corresponding to the current environment, install it:
 ```
 python -m ipykernel install --prefix $CONDA_PREFIX
 ```
